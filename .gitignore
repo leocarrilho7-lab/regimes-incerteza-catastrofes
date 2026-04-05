@@ -7,8 +7,9 @@ credentials/
 **/api_key*
 
 # === DADOS SENSIVEIS ===
-*.xlsx
-*.xls
+# Dataset Base_Barragens_v9.xlsx is PUBLIC (no personal data, only corporate/technical)
+# Other Excel files excluded
+!data/Base_Barragens_v9.xlsx
 evidence_raw/
 bibliography/
 *.pdf
