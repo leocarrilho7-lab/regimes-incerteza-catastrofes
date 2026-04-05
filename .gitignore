@@ -1,0 +1,52 @@
+# === SEGURANCA ===
+.env
+*.env
+secrets/
+credentials/
+**/OPENROUTER_API_KEY*
+**/api_key*
+
+# === DADOS SENSIVEIS ===
+*.xlsx
+*.xls
+evidence_raw/
+bibliography/
+*.pdf
+
+# === CACHE E TEMPORARIOS ===
+__pycache__/
+*.pyc
+*.pyo
+.chromadb/
+chroma_db/
+whoosh_index/
+*.rds
+*.RData
+*.Rhistory
+.Rproj.user/
+
+# === OUTPUTS GRANDES ===
+*.docx
+*.png
+*.jpg
+*.gif
+output/
+mab_demo_output/
+
+# === IDE ===
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# === OS ===
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# === NODE (se houver) ===
+node_modules/
+
+# === LOGS ===
+*.log
+pipeline_summary.json
