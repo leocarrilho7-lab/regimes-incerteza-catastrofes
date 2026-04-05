@@ -51,3 +51,9 @@ node_modules/
 # === LOGS ===
 *.log
 pipeline_summary.json
+
+# === SCRIPTS (moved to private repo) ===
+qca_pipeline/**/*.py
+qca_pipeline/**/*.R
+qca_pipeline/**/*.js
+qca_pipeline/**/tests/
